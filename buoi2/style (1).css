@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+#image-container {
+    width: 700px;
+    height: 430px;
+    background-color: rgb(194, 186, 186);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+h1 {
+    color: rgb(19, 151, 151);
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(66, 189, 189);
+    text-align: left;
+}
+h4 {
+    float: right;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+
+li {
+    list-style: none;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+li:hover {
+    color: rgb(228, 228, 19);
+}
+
+li:active {
+    color: rgb(228, 228, 19);
+}
+
+
+img {
+    width: 1300px;
+    height: 800px;
+    background-color: rgb(194, 186, 186);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+p {
+    line-height: 1.5;
+}
+
+i {
+    font-style: italic;
+    color: rgb(66, 68, 189);
+}
+
+/* Add more styling rules as needed */
